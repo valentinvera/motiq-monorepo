@@ -1,0 +1,10 @@
+{
+  "name": "@motiq/ts-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./base": "./base.json",
+    "./nest-framework": "./nest-framework.json",
+    "./react-library": "./react-library.json"
+  }
+}
