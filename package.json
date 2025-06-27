@@ -1,0 +1,32 @@
+{
+  "name": "motiq",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier -w **/*.{js,mjs,ts,json,toml} --no-editorconfig -u --cache --cache-strategy metadata",
+    "check-types": "turbo run check-types",
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "prepare": "husky",
+    "lint-staged": "bun run lint && bun run format"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "@motiq/eslint-config": "workspace:*",
+    "@motiq/ts-config": "workspace:*",
+    "@types/bun": "1.2.17",
+    "husky": "9.1.7",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "prettier-plugin-tailwindcss": "0.6.13",
+    "turbo": "2.5.4",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "bun": ">=1.2.10"
+  },
+  "packageManager": "bun@1.2.15",
+  "workspaces": ["apps/*", "packages/*"]
+}

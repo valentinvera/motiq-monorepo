@@ -1,0 +1,4 @@
+[install]
+exact = true
+auto = "force"
+workspaces = ["apps/*", "packages/*"]
