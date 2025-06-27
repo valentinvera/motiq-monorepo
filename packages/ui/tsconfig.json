@@ -1,0 +1,12 @@
+{
+  "extends": "@motiq/ts-config/react-library",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@motiq/ui/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "eslint.config.js"],
+  "exclude": ["node_modules", "dist"]
+}

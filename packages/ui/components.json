@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@motiq/ui/components",
+    "utils": "@motiq/ui/lib/utils",
+    "hooks": "@motiq/ui/hooks",
+    "lib": "@motiq/ui/lib",
+    "ui": "@motiq/ui/components"
+  },
+  "iconLibrary": "lucide"
+}
