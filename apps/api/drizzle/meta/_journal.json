@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1751693840985,
+      "tag": "0000_add_better_auth_models",
+      "breakpoints": true
+    }
+  ]
+}
